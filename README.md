@@ -1,6 +1,6 @@
 # Gitplay
 
-This reposatory is only for playing with git and testing
+This repository is only for playing with git and testing
 some commits, merges, rebase, etc.
 
 
