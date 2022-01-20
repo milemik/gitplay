@@ -14,7 +14,6 @@ def test_get_first_empty_list():
 
 
 class TestUser:
-
     def test_user_info(self, user_helper):
         mail, name = user_helper
         user = User(username=name, email=mail)
