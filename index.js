@@ -1,5 +1,10 @@
-let cur_date = Date()
-document.getElementById("message").innerHTML = cur_date
+const cur_date = Date()
 
-console.log("Hello world")§
-document.getElementById("hello").innerHTML = "who?"
+function updateHtml() {
+    document.getElementById("message").innerHTML = cur_date;
+
+    console.log("Hello world");
+    document.getElementById("hello").innerHTML = "who?";
+}
+
+updateHtml();
