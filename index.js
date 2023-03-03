@@ -8,3 +8,8 @@ function updateHtml() {
 }
 
 updateHtml();
+
+
+function addUser() {
+    console.log("User added");
+}
