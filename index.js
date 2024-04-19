@@ -14,6 +14,14 @@ function addUser() {
   console.log("User added");
 }
 
-function getUserLastName() {
-  return "LAST NAME";
+function printHello() {
+  console.log("Hello");
+}
+
+function getUrl() {
+  return "http://localhost.com";
+}
+
+function getUserName() {
+  return "ADMIN";
 }
