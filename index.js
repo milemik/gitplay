@@ -18,7 +18,10 @@ function printHello() {
   console.log("Hello");
 }
 
-
 function getUrl() {
-    return "http://localhost.com"
+  return "http://localhost.com";
+}
+
+function getUserName() {
+  return "ADMIN";
 }
