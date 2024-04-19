@@ -14,6 +14,4 @@ function addUser() {
   console.log("User added");
 }
 
-function getUserLastName() {
-  return "LAST NAME";
-}
+function printHello() {
