@@ -25,3 +25,7 @@ function getUrl() {
 function getUserName() {
   return "ADMIN";
 }
+
+function getNickName() {
+  return "RAMBO";
+}
