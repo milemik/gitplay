@@ -17,3 +17,8 @@ function addUser() {
 function printHello() {
   console.log("Hello");
 }
+
+
+function getUrl() {
+    return "http://localhost.com"
+}
