@@ -1,5 +1,5 @@
 const assert = require("assert");
-const { addUser } = require("../index.js");
+const { addUser } = require("../index");
 
 
 describe("addUser", () => {
@@ -15,10 +15,10 @@ describe("addUser", () => {
         `;
     });
     test("test document", () => {
-        assert.deepStrictEqual(document.getElementById("message").innerText, "");
+        assert.deepStrictEqual(document.getElementById("message").textContent, "");
     })
     test("add user", () => {
         let res = addUser();
-        assert.stringEqual(res, "");
+        assert.deepStrictEqual(res, "OK");
     });
 });

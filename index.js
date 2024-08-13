@@ -6,9 +6,10 @@ function updateHtml() {
   document.getElementById("hello").innerHTML = "who?";
 }
 
-
-window.addEventListener("load", updateHtml());
-
 function addUser() {
   console.log("User added");
+  return "OK"
 }
+
+
+module.exports = { addUser, updateHtml }
