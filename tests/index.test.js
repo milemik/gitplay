@@ -1,8 +1,5 @@
-/**
- * @jest-environment jsdom
- */
 const assert = require("assert");
-const { addUser } = require("../index.js");
+const { addUser } = require("../index");
 
 
 describe("addUser", () => {
@@ -15,10 +12,13 @@ describe("addUser", () => {
             <p id="hello"></p>
             <p>By Mile</p>
         </div>
-        `
+        `;
+    });
+    test("test document", () => {
+        assert.deepStrictEqual(document.getElementById("message").textContent, "");
     })
     test("add user", () => {
         let res = addUser();
-        assert.stringEqual(res, "");
+        assert.deepStrictEqual(res, "OK");
     });
 });
