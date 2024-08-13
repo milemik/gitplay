@@ -13,15 +13,3 @@ updateHtml();
 function addUser() {
   console.log("User added");
 }
-
-function printHello() {
-  console.log("Hello");
-}
-
-function getUrl() {
-  return "http://localhost.com";
-}
-
-function getUserName() {
-  return "ADMIN";
-}
